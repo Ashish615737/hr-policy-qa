@@ -4,3 +4,4 @@ chromadb
 python-dotenv
 groq
 fastapi
+uvicorn
