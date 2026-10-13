@@ -18,6 +18,8 @@ SYSTEM_PROMPT = (
     "You answer questions about company policies. "
     "Use ONLY the context provided. "
     f"If the context does not contain the answer, reply exactly: {NO_ANSWER} "
+    "If the question has several parts, answer each part separately from the "
+    "context, and say you don't know only for a part the context does not cover. "
     "Do not use outside knowledge. Keep answers short and include exact numbers."
 )
 
