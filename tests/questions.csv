@@ -1,0 +1,26 @@
+question,expected_answer,category,must_contain
+How many days of casual leave do I get in a year?,8 days,direct,8
+How many sick leave days do I get per year?,12 days,direct,12
+How far ahead must I request casual leave?,2 working days,direct,2
+After how many consecutive sick days do I need a medical certificate?,More than 2 days,direct,2
+How many earned leave days do I accrue each month?,1.5 days,direct,1.5
+How many unused earned leave days can I carry forward?,10 days,direct,10
+How many days of unpaid leave can I take in a year?,15 days,direct,15
+Which days of the week are the fixed office days?,"Tuesday, Wednesday, Thursday",direct,tuesday|wednesday|thursday
+How much is the monthly home internet allowance?,Rs 1000 per month,direct,1000
+How much can I claim for buying a monitor?,Rs 8000 one-time,direct,8000
+What is the nightly hotel limit in Mumbai?,Rs 6000,direct,6000
+What is the daily meal allowance on official travel?,Rs 1200,direct,1200
+How much does the company pay per kilometre for my personal vehicle?,Rs 9 per km,direct,9
+Within how many days must I submit an expense claim?,30 days,direct,30
+How long does reimbursement take after a claim is approved?,15 working days,direct,15
+How many sick leave days do I get and can unused ones be carried forward?,12 days; they lapse on 31 Dec,two_fact,12|carried
+What happens after three late marks in a month and how many casual leave days do I get a year?,1 day of casual leave deducted; 8 days a year,two_fact,8|deduct
+Who must approve a claim of Rs 12000 and how soon is it reimbursed after approval?,Finance Head plus manager; 15 working days,two_fact,finance|15
+I want 6 days of earned leave in a row. How far ahead and who approves?,14 days ahead; manager approval,two_fact,14|manager
+Which is higher per night: a hotel in Chennai or in Nagpur and by how much?,Chennai Rs 6000 vs Nagpur Rs 4000,two_fact,6000|4000
+What is the maternity leave policy?,I don't know,unanswerable,
+What does the company health insurance cover?,I don't know,unanswerable,
+How long is the notice period if I resign?,I don't know,unanswerable,
+What is the daily allowance for international trips?,I don't know,unanswerable,
+Do employees get stock options?,I don't know,unanswerable,
