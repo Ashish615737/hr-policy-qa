@@ -1,3 +1,4 @@
+import os
 import re
 from pathlib import Path
 
@@ -6,8 +7,8 @@ from pypdf import PdfReader
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
 
-CHUNK_SIZE = 500
-CHUNK_OVERLAP = 50
+CHUNK_SIZE = int(os.getenv("CHUNK_SIZE", "500"))
+CHUNK_OVERLAP = int(os.getenv("CHUNK_OVERLAP", "50"))
 
 SECTION_START = re.compile(r"^\d+\.\s")
 

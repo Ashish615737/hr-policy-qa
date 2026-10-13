@@ -1,3 +1,4 @@
+import os
 import csv
 import sqlite3
 import sys
@@ -8,7 +9,7 @@ from ingest import CHUNK_OVERLAP, CHUNK_SIZE, PROJECT_ROOT
 
 QUESTIONS_CSV = PROJECT_ROOT / "tests" / "questions.csv"
 DB_PATH = PROJECT_ROOT / "results.db"
-TOP_K = 3
+TOP_K = int(os.getenv("TOP_K", "3"))
 
 
 def init_db() -> sqlite3.Connection:
